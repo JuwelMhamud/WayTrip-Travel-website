@@ -1,4 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
-body{
-    font-family: 'Mulish', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+/* ----------shared style--------- */
+
+/* ----------Navbar style--------- */
+.nav-bar {
+  max-width: 1150px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.nav-img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-img h2 {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 700;
+}
+.trip{
+    color: #FF5400;
+}
+.nav-text {
+  width: 50%;
+  display: flex;
+  gap: 3rem;
+}
+.nav-text a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.nav-text i{
+    display: none;
 }
