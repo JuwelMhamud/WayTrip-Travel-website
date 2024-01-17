@@ -283,7 +283,7 @@ h3 {
   flex-direction: column;
   gap: 40px;
 }
-.discount button{
+.discount button {
   width: 30%;
 }
 .discount-text {
@@ -313,7 +313,7 @@ h3 {
   background-position: center;
   border-radius: 10px;
 }
-.discount-img-3{
+.discount-img-3 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -360,8 +360,33 @@ h3 {
 .price {
   color: var(--Btn-color);
 }
-.packages{
+.packages {
   align-self: center;
+}
+/* ------simple place sectiion--- */
+.simple-sec{
+  max-width: 1150px;
+  height: 350px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.simple-sec-description{
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.simple-sec-img{
+  width: 48%;
+
+}
+.simple-sec button{
+  width: 30%;
+}
+.simple-sec-img img{
+  width: 100%;
+  height: 100%;
 }
 /* -------Newsletter section style------ */
 .newsletter {

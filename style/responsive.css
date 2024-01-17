@@ -18,12 +18,12 @@
   .nav-text i {
     display: block;
     font-size: 2rem;
-  } 
+  }
 
   /* banner section */
   .banner {
     width: 90vw;
-    height: 78vh;    
+    height: 78vh;
   }
   .banner-text h1 {
     font-size: 1.9rem;
@@ -32,8 +32,8 @@
     font-size: 1rem;
   }
   .input-items {
-  flex-direction: column;
-  width: 70%;
+    flex-direction: column;
+    width: 70%;
   }
   .input-items input {
     padding: 10px;
@@ -43,7 +43,7 @@
   .popular-tour {
     width: 90vw;
     height: 100%;
-    flex-direction: column
+    flex-direction: column;
   }
   .popular-tour-text {
     width: 100%;
@@ -57,17 +57,16 @@
     width: 90vw;
     height: 100%;
   }
-  .choose-card{
-   display: flex;
-   flex-direction: column;
-   height: 100%;
+  .choose-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
   /* newsletter style */
   .newsletter {
     width: 90vw;
     height: 100%;
     flex-direction: column;
-
   }
   .letter-input-form {
     width: 100%;
@@ -77,26 +76,39 @@
     width: 100%;
   }
   /* destination */
-  .destination{
+  .destination {
     width: 90vw;
     height: 100%;
   }
-  .distination-img{
+  .distination-img {
     display: flex;
     flex-direction: column;
   }
-  
+
   .discount {
     width: 90vw;
-    height: 100%
+    height: 100%;
   }
   .discount-details {
     width: 80vw;
     height: 100%;
     padding: 13px;
   }
-  .discount ul{
+  .discount ul {
     flex-wrap: wrap;
-
+  }
+  /* simple section */
+  .simple-sec{
+    width: 80vw;
+    height: 100%;
+    /* display:flex; */
+    flex-direction: column;
+    gap: 40px;
+  }
+  .simple-sec-description{
+    width: 100%;
+  }
+  .simple-sec-img{
+    width: 100%;
   }
 }
