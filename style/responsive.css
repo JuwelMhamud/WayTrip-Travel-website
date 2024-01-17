@@ -39,4 +39,31 @@
     padding: 10px;
     width: 200px;
   }
+  /* popular section style */
+  .popular-tour {
+    width: 90vw;
+    height: 100%;
+    flex-direction: column
+  }
+  .popular-tour-text {
+    width: 100%;
+  }
+  .popular-tour-img {
+    width: 100%;
+    margin: 20px 0;
+  }
+  /* newsletter style */
+  .newsletter {
+    width: 90vw;
+    height: 100%;
+    flex-direction: column;
+
+  }
+  .letter-input-form {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .letter-img {
+    width: 100%;
+  }
 }

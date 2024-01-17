@@ -13,6 +13,26 @@ body {
   --Btn-color: #ff5400;
 }
 /* ----------shared style--------- */
+.section-header {
+  color: #131318;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.section-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 0.9rem;
+  font-weight: 400;
+  /* line-height: 5px; */
+}
+.section-btn {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 8px;
+  background: var(--Btn-color);
+  padding: 10px;
+  border: none;
+}
 
 /* ----------Navbar style--------- */
 .nav-bar {
@@ -91,16 +111,15 @@ body {
 }
 
 .input-items {
-  
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-padding: 10px;
-width: 80%;
-margin: 0 auto;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
 }
 .input-items input {
   padding: 10px;
@@ -116,12 +135,96 @@ margin: 0 auto;
   padding: 10px;
   border: none;
 }
-.icon{
+.icon {
   position: relative;
 }
-.icon i{
+.icon i {
   position: absolute;
   top: 10px;
   right: 10px;
   color: gray;
+}
+/* -----Popular tour section style----- */
+.popular-tour {
+  max-width: 1150px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+.popular-tour-text {
+  width: 50%;
+}
+.popular-tour-text li {
+  margin: 25px auto;
+}
+.popular-tour-text p {
+  margin: 30px auto;
+}
+.popular-tour-img {
+  width: 45%;
+}
+.popular-tour-img img {
+  width: 100%;
+  height: 100%;
+}
+/* -------Newsletter section style------ */
+.newsletter {
+  max-width: 1150px;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.letter-input-form {
+  width: 35%;
+  border: 1px solid var(--Btn-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+.letter-input-form p{
+  margin: 10px 0;
+}
+.letter-input-form h3 {
+  font-size: 1.7rem;
+}
+hr {
+  margin: 20px 0;
+}
+.letter-input-form input {
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+}
+.letter-input-form button{
+  margin: 20px 0;
+  width: 100%;
+}
+.letter-img {
+  width: 60%;
+  position: relative;
+}
+.letter-img img{
+   width: 100%;
+   height: 350px;
+   object-fit: conver;
+}
+.Tag{
+  position: absolute;
+  background-color: var(--Btn-color);
+  padding: 15px 20px;
+  width: 35%;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  transform: rotate(340deg);
+  bottom: 40px;
+  right: 5px;
+}
+.Tag span{
+  font-weight: 800;
 }
