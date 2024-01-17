@@ -111,4 +111,15 @@
   .simple-sec-img{
     width: 100%;
   }
+  /* review sec */
+  .review {
+    width: 80vw;
+    height: 100%;
+  }
+  .card-1,.card-2{
+    width: 100%;
+  }
+  .review-card {
+    flex-direction: column;
+  }
 }
