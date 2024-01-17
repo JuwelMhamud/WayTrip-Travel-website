@@ -18,5 +18,25 @@
   .nav-text i {
     display: block;
     font-size: 2rem;
+  } 
+
+  /* banner section */
+  .banner {
+    width: 90vw;
+    height: 78vh;    
+  }
+  .banner-text h1 {
+    font-size: 1.9rem;
+  }
+  .banner-text p {
+    font-size: 1rem;
+  }
+  .input-items {
+  flex-direction: column;
+  width: 70%;
+  }
+  .input-items input {
+    padding: 10px;
+    width: 200px;
   }
 }
