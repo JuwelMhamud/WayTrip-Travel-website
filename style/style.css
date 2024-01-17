@@ -234,47 +234,135 @@ h3 {
 .choose-text p {
   margin: 20px;
 }
-.choose-card{
+.choose-card {
   height: 500px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap:20px;
+  gap: 20px;
 }
-.hotel{
+.hotel {
   width: 100%;
   padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.hotel img{
+.hotel img {
   width: 60px;
 }
-.num-1{
+.num-1 {
   grid-column: 1 / span 6;
   border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
 }
-.num-2{
+.num-2 {
   grid-column: 7 / span 6;
   border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
 }
-.num-3{
+.num-3 {
   grid-column: 4 / span 6;
   border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
 }
 .hotel h2 {
   color: #131318;
   font-size: 1.5rem;
   font-weight: 800;
 }
-
+/* -----discount sec style--------- */
+.discount {
+  max-width: 1150px;
+  margin: 50px auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.discount button{
+  width: 30%;
+}
+.discount-text {
+  text-align: center;
+}
+.discount-img-1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 40px;
+  height: 400px;
+  background-image: url("../Images/discount-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.discount-img-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px;
+  height: 400px;
+  background-image: url("../Images/discount-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.discount-img-3{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 40px;
+  height: 400px;
+  background-image: url("../Images/discount-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.discount-details {
+  border: 2px solid red;
+  width: 40%;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.discount h2 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.price {
+  font-size: 20px;
+  font-weight: 800;
+}
+.discount ul {
+  display: flex;
+  gap: 15px;
+}
+.discount ul li {
+  list-style: none;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+}
+.discount ul li i,
+.price {
+  color: var(--Btn-color);
+}
+.packages{
+  align-self: center;
+}
 /* -------Newsletter section style------ */
 .newsletter {
   max-width: 1150px;
