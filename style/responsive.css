@@ -66,6 +66,14 @@
   .letter-img {
     width: 100%;
   }
-  
+  /* destination */
+  .destination{
+    width: 90vw;
+    height: 100%;
+  }
+  .distination-img{
+    display: flex;
+    flex-direction: column;
+  }
   
 }
