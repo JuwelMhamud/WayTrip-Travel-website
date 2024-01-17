@@ -52,6 +52,16 @@
     width: 100%;
     margin: 20px 0;
   }
+  /* why choose sec */
+  .choose {
+    width: 90vw;
+    height: 100%;
+  }
+  .choose-card{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+  }
   /* newsletter style */
   .newsletter {
     width: 90vw;
@@ -75,5 +85,7 @@
     display: flex;
     flex-direction: column;
   }
+  
+  
   
 }
